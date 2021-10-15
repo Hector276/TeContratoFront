@@ -223,6 +223,6 @@ import NavigationBar from "../components/navigation-bar";
   margin-right: 30px;
 }
 .info-profile h2{
-  color: rgb(8, 123, 255);
+  color: rgb(88, 139, 197);
 }
 </style>

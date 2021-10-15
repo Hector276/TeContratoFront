@@ -28,8 +28,6 @@
 </template>
 
 <script>
-import appbar from "../components/appbar";
-import Navbar from "../components/Navbar";
 import OffersApiService from "../services/offers-api-service";
 import NavigationBar from "../components/navigation-bar";
 export default {
@@ -41,8 +39,7 @@ export default {
   },
   components:{
     NavigationBar,
-    appbar,
-    Navbar,
+
   },
   methods:{
     retrieveOffers() {

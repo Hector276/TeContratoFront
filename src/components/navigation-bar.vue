@@ -3,14 +3,14 @@
     <v-navigation-drawer
         v-model="drawer"
         app
-        class ="deep-purple lighten-1"
+        color=#283593
     >
-      <v-layout column align-center>
+      <v-layout class="text--white" column align-center>
         <v-flex class="mt-5">
           <v-avatar size="100">
-            <img src="/profile1.jpg" alt="">
+            <img src="https://cdn-icons-png.flaticon.com/512/2550/2550359.png" alt="">
           </v-avatar>
-          <p class=" mt-2 ">
+          <p class="mt-2" >
             Username </p>
         </v-flex>
       </v-layout>
@@ -30,14 +30,17 @@
       <v-list
           dense
           nav
+
       >
         <v-list-item
+
             v-for="item in items"
             :key="item.title"
             :to = "item.to"
+            class="text-white"
             link
         >
-          <v-list-item-icon>
+          <v-list-item-icon >
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-icon>
 
@@ -49,10 +52,10 @@
       <!--  -->
     </v-navigation-drawer>
 
-    <v-app-bar app class="deep-purple lighten-1">
-      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+    <v-app-bar color=#283593 app class="text-white lighten-1">
+      <v-app-bar-nav-icon color="white" @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>EZLabor</v-toolbar-title>
+      <v-toolbar-title >EZLabor</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
