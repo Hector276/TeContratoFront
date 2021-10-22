@@ -55,7 +55,7 @@
     <v-app-bar color=#283593 app class="text-white lighten-1">
       <v-app-bar-nav-icon color="white" @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title >EZLabor</v-toolbar-title>
+      <v-toolbar-title >Te Contrato</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
