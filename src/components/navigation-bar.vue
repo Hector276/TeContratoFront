@@ -73,7 +73,7 @@ export default {
     drawer: null,
     items: [
       { title: 'Home', icon: 'mdi-view-dashboard', to: '/dashboard' },
-      { title: 'Explore', icon: 'mdi-briefcase-search', to: '/explore' },
+      { title: 'Proyects', icon: 'mdi-briefcase-search', to: '/proyects' },
       { title: 'Notifications', icon: 'mdi-bell-badge', to: '/notifications' },
       { title: 'Messages', icon: 'mdi-forum', to: '/messages' },
       { title: 'Offers', icon: 'mdi-briefcase', to: '/offers' },
